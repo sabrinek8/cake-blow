@@ -2,9 +2,31 @@ body {
   background-color: #333;
 }
 
+.controls {
+  text-align: center;
+  margin: 20px;
+}
+
+.share-link {
+  background-color: #f0e4d0;
+  border: 2px solid #553c13;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #553c13;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.share-link:hover {
+  background-color: #e6d7bb;
+}
+
 .candle-count-display {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
@@ -32,6 +54,7 @@ body {
   left: 50%;
   margin-top: -70px;
   margin-left: -125px;
+  cursor: pointer;
 }
 
 .plate {
@@ -184,4 +207,11 @@ body {
     transform: skewX(5deg);
     box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
   }
+}
+
+.instructions {
+  text-align: center;
+  color: #f0e4d0;
+  margin: 20px;
+  font-family: Arial, sans-serif;
 }
